@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+
+# Virtual env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Logs / temp
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Datasets (too large for GitHub, store locally)
+data/
+
+
+# Models (optional: if too large, use Git LFS instead)
+*.h5
+*.hdf5
+*.pb
+*.onnx
+
+# TensorFlow / Keras training outputs
+checkpoints/
+events.out.tfevents.*
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
